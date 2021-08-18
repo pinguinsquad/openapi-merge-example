@@ -1,0 +1,14 @@
+{
+  "name": "swagger-merge-example",
+  "version": "1.0.0",
+  "description": "Examples showing how to split and merge OpenApi/Swagger defintion files.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinguinsquad/openapi-merge-example.git"
+  },
+  "author": "pinguin squad GmbH",
+  "bugs": {
+    "url": "https://github.com/pinguinsquad/openapi-merge-example/issues"
+  },
+  "homepage": "https://github.com/pinguinsquad/openapi-merge-example#readme"
+}
