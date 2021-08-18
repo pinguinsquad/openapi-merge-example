@@ -1,0 +1,23 @@
+{
+  "name": "openapi-merge-example",
+  "version": "0.1.1",
+  "description": "Multi-file boilerplate for Open API Specification.",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "mkdirp ./_build",
+    "build": "swagger-merger -i petstore/swagger.yaml -o _build/swagger.yaml",
+    "test": "npm run build && spectral lint _build/swagger.yaml",
+    "preview": "npm run build && redoc-cli serve _build/swagger.yaml --options.onlyRequiredInSamples",
+    "html": "npm run build && redoc-cli bundle _build/swagger.yaml  --output _build/index.html --options.onlyRequiredInSamples",
+    "clean": "del-cli --force _build"
+  },
+  "dependencies": {
+    "swagger-merger": "1.4.3",
+    "@stoplight/spectral": "5.9.2",
+    "redoc-cli": "0.12.2"
+  },
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "mkdirp": "^1.0.4"
+  }
+}

@@ -1,0 +1,26 @@
+/pet:
+  $ref: "./pets.yaml#/pets"
+/pet/findByStatus:
+  $ref: "./pets.yaml#/findByStatus"
+/pet/findByTags:
+  $ref: "./pets.yaml#/findByTags"
+/pet/{petId}:
+  $ref: "./pets.yaml#/petId"
+/pet/{petId}/uploadImage:
+  $ref: "./pets.yaml#/petId-uploadImage"
+/store/inventory:
+  $ref: "./store.yaml#/inventory"
+/store/order:
+  $ref: "./store.yaml#/order"
+/store/order/{orderId}:
+  $ref: "./store.yaml#/orderId"
+/user:
+  $ref: "./user.yaml#/user"
+/user/createWithList:
+  $ref: "./user.yaml#/createWithList"
+/user/login:
+  $ref: "./user.yaml#/login"
+/user/logout:
+  $ref: "./user.yaml#/logout"
+/user/{username}:
+  $ref: "./user.yaml#/username"

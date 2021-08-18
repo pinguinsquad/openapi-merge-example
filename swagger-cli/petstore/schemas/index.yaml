@@ -1,0 +1,10 @@
+Pet:
+  $ref: "./pet.yaml"
+Tag:
+  $ref: "./tag.yaml"
+ApiResponse:
+  $ref: "./api-response.yaml"
+Order:
+  $ref: "./order.yaml"
+User:
+  $ref: "./user.yaml"
