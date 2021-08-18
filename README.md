@@ -1,5 +1,7 @@
 # Swagger/OpenAPI merge examples
 
+[![CI](https://github.com/pinguinsquad/openapi-merge-example/actions/workflows/npm.yml/badge.svg?branch=main)](https://github.com/pinguinsquad/openapi-merge-example/actions/workflows/npm.yml)
+
 Examples showing how to split and merge OpenApi/Swagger defintion files.
 
 Pretty good explanation about the why in this [blog post](https://davidgarcia.dev/posts/how-to-split-open-api-spec-into-multiple-files/).
